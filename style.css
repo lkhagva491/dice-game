@@ -56,7 +56,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 200;
   margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -89,7 +89,7 @@ body {
 .player-current-box {
   background-color: #eb4d4d;
   color: #fff;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   padding: 12px;
   text-align: center;
@@ -146,6 +146,7 @@ i {
 
 .btn-new {
   top: 45px;
+  width: 300px;
 }
 .btn-roll {
   top: 403px;
