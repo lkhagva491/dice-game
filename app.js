@@ -95,7 +95,8 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
       isNewGame = false;
 
       // Ялагч гэсэн текстийг нэрнийх нь оронд гаргана
-      document.getElementById("name-" + activePlayer).textContent = "WINNER!!!";
+      document.getElementById("name-" + activePlayer).textContent =
+        "Ялагч боллоо!!!";
       document
         .querySelector(".player-" + activePlayer + "-panel")
         .classList.add("winner");
